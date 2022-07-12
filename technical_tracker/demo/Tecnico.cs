@@ -21,7 +21,7 @@ namespace technical_tracker.demo
             this.Especialidad = "Swtiching and routing";
         }
 
-        public void saveProfile(string nombre, string apellido, string correo, string telefono, string puesto, string departamento)
+        public void saveProfile(string nombre, string apellido, string correo, string telefono, string puesto, string departamento, string area, string especialidad)
         {
             this.Nombre = nombre;
             this.Apellido = apellido;
@@ -29,6 +29,7 @@ namespace technical_tracker.demo
             this.Telefono = telefono;
             this.Puesto = puesto;
             this.Departamento = departamento;
+            this.Especialidad = especialidad;
 
             Singleton.Storage.Instance.tecnicos.Add(this);
         }

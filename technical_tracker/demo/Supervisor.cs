@@ -21,9 +21,17 @@ namespace technical_tracker.demo
             this.AreaTecnica = "Internet";
         }
 
-        public void saveProfile(string nombre, string apellido, string correo, string telefono, string puesto, string departamento)
+        public void saveProfile(string nombre, string apellido, string correo, string telefono, string puesto, string departamento, string area, string especialidad)
         {
-            throw new NotImplementedException();
+            this.Nombre = nombre;
+            this.Apellido = apellido;
+            this.Correo = correo;
+            this.Telefono = telefono;
+            this.Puesto = puesto;
+            this.Departamento = departamento;
+            this.AreaTecnica = area;
+
+            Singleton.Storage.Instance.supervisores.Add(this);
         }
     }
 }

@@ -8,7 +8,7 @@ namespace technical_tracker.demo
     public interface IFactory
     {
         void getProfile(string key);
-        void saveProfile(string nombre, string apellido, string correo, string telefono, string puesto, string departamento);
+        void saveProfile(string nombre, string apellido, string correo, string telefono, string puesto, string departamento, string area, string especialidad);
         string getName();
     }
 }

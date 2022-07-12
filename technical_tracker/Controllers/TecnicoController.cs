@@ -32,7 +32,7 @@ namespace technical_tracker.Controllers
                 EmpleadoFactory factory = new ConcreteEmpleadoFactory();
 
                 IFactory t = factory.GetEmpleado("Tecnico");
-                t.saveProfile(collection["Nombre"], collection["Apellido"], collection["Correo"], collection["Telefono"], collection["Puesto"], collection["Departamento"]);
+                t.saveProfile(collection["Nombre"], collection["Apellido"], collection["Correo"], collection["Telefono"], collection["Puesto"], collection["Departamento"], "", collection["Especialidad"]);
                 return RedirectToAction(nameof(Index));
             }
             catch

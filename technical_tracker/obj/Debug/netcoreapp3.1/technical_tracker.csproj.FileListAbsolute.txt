@@ -111,3 +111,4 @@ C:\Users\José De León\Desktop\mvc\technical_tracker\obj\Debug\netcoreapp3.1\te
 C:\Users\José De León\Desktop\mvc\technical_tracker\obj\Debug\netcoreapp3.1\Razor\Views\Tecnico\Index.cshtml.g.cs
 C:\Users\José De León\Desktop\mvc\technical_tracker\obj\Debug\netcoreapp3.1\Razor\Views\Tecnico\Create.cshtml.g.cs
 C:\Users\José De León\Desktop\mvc\technical_tracker\obj\Debug\netcoreapp3.1\Razor\Views\Supervisor\Index.cshtml.g.cs
+C:\Users\José De León\Desktop\mvc\technical_tracker\obj\Debug\netcoreapp3.1\Razor\Views\Supervisor\Create.cshtml.g.cs
